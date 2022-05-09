@@ -1,0 +1,406 @@
+body{
+	height:100%;
+}
+
+html{
+	height:100%;
+}
+
+.imgUpgrade{
+	width: 60px;
+  	margin-top: 6%;
+}
+
+.divButton{
+	background-color: #D64388;
+  	margin-bottom: 1px;
+  	padding-left: 10px;
+}
+
+footer{
+	background-color: #baa3a3;
+	width: 100%;
+	height: 15%;
+}
+
+form{
+	width: 600px;
+  	height: auto;
+  	margin: auto;
+  	display: flex;
+  	flex-direction: column;
+  	background-color: #f1f1f1;
+  	padding: 20px;
+    border-radius: 3px;
+}
+
+input{
+  	width: 400px;
+  	height: 40px;	
+  	margin: auto !important;
+}
+
+input[type=submit]
+{
+  	width: 200px;
+    background-color: #D64388;
+    color: white;
+  	font-weight: bold;
+    font-size: 18px;
+  	border: none;
+  	border-radius: 5px;
+}
+
+input[type=submit]:hover
+{
+    background-color: #008BCD;
+}
+
+
+label{
+ 	margin-left: 15%;
+  	color: #6d6d6d;
+}
+
+.form{
+  	display: flex;
+  	height: 100%;
+}
+
+#erreur{
+  margin: 0 auto;
+  width: 1200px;
+  margin-top: 15%;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  padding: 50px;
+  box-shadow: 3px 3px 5px 6px #ccc;
+}
+
+#erreur h2{
+  margin-bottom: 5%;
+  color: #008BCD;
+}
+
+#erreur p{
+  font-size: 20px;
+}
+
+#data{
+  display: none;
+}
+
+#lostPassword{
+  width: 400px;
+  margin: 0 auto;
+  margin-bottom: 3%;
+}
+
+#midZone{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #f1f1f1;
+  height: 600px;
+  width: 25%;
+  margin-top: 5%;
+  margin-left: -4%;
+  box-shadow: 3px 3px 5px 6px #ccc;
+}
+
+#midZone div{
+  text-align: center;
+  width: 100%;
+  height: auto;
+}
+
+#indexFront
+{
+  display: flex;
+  justify-content: space-around;
+}
+
+#upgradeEmplacement
+{
+     float: right;
+     display: flex;
+     flex-direction: column;
+     height: 800px;
+     overflow: auto;
+  	 margin-top: 2%;
+     margin-right: -3%;
+}
+
+#upgradeEmplacement button
+{
+  	 border: none;
+     background-color: #D64388;
+     color: white;
+     width: 200px;
+     height: 85px;
+  	 font-size: 20px;
+}
+
+#sentence{
+ 	 font-size: 20px;
+     font-weight: bold; 
+}
+
+#clickCounter{
+	 font-size: 50px;
+  	 color: #008BCD;
+  	 width: 400px;
+     text-align: center;
+}
+
+#phone
+{
+  width: 500px;
+  height: 859px;
+  margin-left: -5%;
+}
+
+#phoneSection
+{
+  display: none;
+}
+
+#save
+{
+	margin-left: 32.3%; 
+  	width: 200px;
+  	margin-top: -25px;
+    height: 40px;
+  	border-radius: 5px;
+  	background-color: #D64388;
+  	border: none; 
+ 	font-weight: bold;
+  	font-size: 18px;
+  	color: white;
+}
+
+#save:hover{
+  	background-color: #008BCD;
+}
+
+h1{
+	font-size: 1.60em !important;
+	margin-top: 0px;
+}
+
+h1 a{
+	color: #03CEA4 !important;
+}
+
+nav a{
+	color: #454545;
+}
+
+li{
+	list-style: none;
+}
+
+nav ul{
+	display: flex;
+}
+
+header{
+	margin-top: 20px !important;
+}
+
+#content-wrap{
+	height: 100%;
+}
+
+#main{
+	height: 100%;
+}
+
+.barre-header{
+	margin: 0px !important;
+}
+
+.flash{
+	margin: 0;
+	margin-bottom: -20px;
+}
+
+.champs{
+	margin-top: 1%;
+}
+
+.ecran-tel
+{
+  display: none !important;
+}
+
+@media screen and (min-width: 320px) and (orientation: portrait) and (max-height: 812px)
+{
+  	#sentence
+  	{
+        display: none;
+  	}
+  
+  	#clickCounter
+    {
+        font-size: 40px;
+  	}
+  
+    #upgradeEmplacement button
+    {
+        font-size: 12px;
+    }
+  
+    #indexFront
+	{
+  		display: flex;
+  		justify-content: space-around;
+        flex-direction: column-reverse;
+      	flex-wrap: nowrap;
+	}
+  
+  	#phone
+	{
+        width: 232px !important;
+        height: 400px !important;
+        margin: 0 auto;
+      	margin-top: -20px;
+	}
+  
+	#phoneSection
+	{
+  		display: flex;
+    	justify-content: center;
+      	margin-top: 50%;
+	}
+    
+    #phoneSection div{
+  		width: 90%;
+      	background-color: #f1f1f1;
+      	border-radius: 3px;
+      	font-size: 10px;
+      	padding: 20px;
+  	}
+  
+  	#content-wrap{
+  		height: auto;
+  	}
+  
+	h1{
+      font-size: 0.8em !important;
+      margin-top: 3%;
+	}
+  
+  	#midZone{
+      height: 80px;
+      width: 85% !important;
+      margin: 0 auto;
+	}
+  
+    #upgradeEmplacement
+    {
+     display: flex;
+     flex-direction: row;
+     height: 75px;
+     overflow: auto;
+	 margin-top: 0px;
+     width: 100%;
+     margin-bottom: 0px;
+    }
+  
+  	.divButton{
+      padding-right: 10px;
+      display: flex;
+  	}
+  
+  	.imgUpgrade{
+      width: 50px;
+      height: 50px;
+  	}
+  	
+  	#upgradeEmplacement button
+	{
+      width: 95px;
+      height: auto;
+  	  font-size: 14px;
+	 }
+  
+  	 header{
+       margin-bottom: 0px !important;
+  	 }
+  
+  	 .flexFront:nth-child(1){
+  	 	order: 2;
+     }
+  
+  	 .flexFront:nth-child(3){
+  	 	order: 1;
+  	 }
+  
+     .flexFront:nth-child(4){
+  	 	order: 3;
+  	 }
+  	 .ecran-tel{
+  	 	display: block !important;
+  	 }
+  	 .ecran-pc{
+ 	 	display: none;
+  	 }
+  
+  	 #save
+    {
+      float: right; 
+      width: auto;
+      margin-top: 1.5%;
+      height: auto;
+      font-size: 14px;
+      margin-right: 3%;
+      float: right;
+    }
+}
+
+@media screen and (max-width: 1150px)
+{
+  .divButton
+  {
+    display: flex;
+  }
+  
+  .divButton img
+  {
+    width: 50px;
+    height: 50px;
+  }
+  
+  #midZone
+  {
+    width: 35%;
+    margin: 0 auto !important;
+    margin-top: 5%;
+  }
+  
+  #phone
+  {
+  	height: 700px;
+    width: 407px;
+    margin: 0 auto;
+  }
+  
+  #save
+  { 
+    margin-left: 28%;
+    float: right;
+  }
+  
+  #indexFront
+  { 
+    flex-wrap: wrap;
+  }
+  
+  #upgradeEmplacement{
+    margin-right: 0;
+    height: auto;
+    flex-direction: row;
+  }
+}

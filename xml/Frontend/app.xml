@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<definitions>
+  <define var="mail_message" value="Vous avez effectué une demande de changement de mot de passe, veuillez copier le code de vérification ci-joint"/>
+  <define var="cible" value="s.vermeulen57@gmail.com"/>
+  <define var="subject" value="changement mdp"/>
+</definitions>

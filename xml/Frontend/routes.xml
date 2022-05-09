@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<routes>
+  <route url="/" module="User" action="indexFront" />
+  <route url="/register\.html" module="User" action="register" />
+  <route url="/login\.html" module="User" action="login" />
+  <route url="/save\.html" module="User" action="save" />
+  <route url="/loginRegister\.html" module="User" action="loginRegister" />
+  <route url="/lostPassword\.html" module="User" action="lostPassword" />
+  <route url="/changePassword-([0-9]+)\.html" module="User" action="changePassword" vars="playerId" />
+</routes>
